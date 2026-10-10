@@ -77,4 +77,5 @@ Open the generated short URL in your browser to redirect to the original website
 - Develop a frontend using HTML, CSS, and JavaScript.
   
 👩‍💻 Author
+
 Lakshmi Priya S
