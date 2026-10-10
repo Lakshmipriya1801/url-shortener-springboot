@@ -1,3 +1,4 @@
+
 package com.example.urlshortener.service;
 
 import com.example.urlshortener.entity.*;
@@ -16,9 +17,14 @@ public class UrlService {
 
     public String shortenUrl(String originalurl) {
 
-        String shortcode = UUID.randomUUID()
-                .toString()
-                .substring(0, 6);
+        String shortcode;
+
+        do {
+            shortcode = UUID.randomUUID()
+                    .toString()
+                    .substring(0, 6);
+
+        } while (repo.findByShortcode(shortcode) != null);
 
         Url url = new Url();
 
