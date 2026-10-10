@@ -22,16 +22,18 @@ A simple backend application built using Java, Spring Boot, and MySQL to convert
   
 📂 Project Structure :
 
+```text
 src/main/java/com/example/urlshortener/
-├── controller/
-│   └── UrlController.java
-├── service/
-│   └── UrlService.java
-├── dao/
-│   └── UrlRepo.java
-├── entity/
-│   └── Url.java
-└── UrlshortenerApplication.java
+|-- controller/
+|   `-- UrlController.java
+|-- service/
+|   `-- UrlService.java
+|-- dao/
+|   `-- UrlRepo.java
+|-- entity/
+|   `-- Url.java
+`-- UrlshortenerApplication.java
+```
 
 
  ⚙️ Setup Instructions :
